@@ -1,0 +1,44 @@
+[2021-01-13 13:34:29,101] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-01-13 13:35:06,235] [log.py:230] [log:log_response] [WARNING]- Forbidden: /api/v2/testuser
+[2021-01-13 13:35:06,235] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /api/v2/testuser HTTP/1.1" 403 31
+[2021-01-13 13:35:18,682] [log.py:230] [log:log_response] [WARNING]- Forbidden: /api/v2/testuser
+[2021-01-13 13:35:18,683] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /api/v2/testuser HTTP/1.1" 403 31
+[2021-01-13 13:35:28,009] [basehttp.py:157] [basehttp:log_message] [INFO]- "POST /api/v1/auth HTTP/1.1" 200 61
+[2021-01-13 13:35:39,956] [views.py:172] [views:get] [INFO]- userToken object (1)
+[2021-01-13 13:35:39,958] [views.py:173] [views:get] [INFO]- 1
+[2021-01-13 13:35:39,964] [views.py:177] [views:get] [INFO]- UserRole object (1)
+[2021-01-13 13:35:39,965] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/v1/userinfo HTTP/1.1" 200 333
+[2021-01-13 13:35:49,051] [views.py:29] [views:get] [INFO]- 进入TuserView
+[2021-01-13 13:35:49,056] [views.py:31] [views:get] [INFO]- 进入TuserView1
+[2021-01-13 13:35:49,061] [views.py:33] [views:get] [INFO]- 进入TuserView2
+[2021-01-13 13:35:49,062] [views.py:35] [views:get] [INFO]- 进入TuserView3
+[2021-01-13 13:35:49,068] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/v2/testuser HTTP/1.1" 200 459
+[2021-01-13 13:36:15,215] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- E:\Dataplatform\meme\memetest\views.py changed, reloading.
+[2021-01-13 13:36:17,721] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-01-13 13:36:18,367] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/v2/testuser HTTP/1.1" 200 459
+[2021-01-13 13:36:42,636] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- E:\Dataplatform\meme\memetest\views.py changed, reloading.
+[2021-01-13 13:36:43,664] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-01-13 13:36:44,362] [views.py:37] [views:get] [ERROR]- module 'userrole.models' has no attribute 'TestUser'
+[2021-01-13 13:36:44,364] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/v2/testuser HTTP/1.1" 200 36
+[2021-01-13 13:37:06,357] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- E:\Dataplatform\meme\memetest\views.py changed, reloading.
+[2021-01-13 13:37:07,710] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-01-13 13:37:08,808] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/v2/testuser HTTP/1.1" 200 459
+[2021-01-13 13:37:38,616] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- E:\Dataplatform\meme\memetest\views.py changed, reloading.
+[2021-01-13 13:37:39,583] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-01-13 13:37:40,544] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/v2/testuser HTTP/1.1" 200 459
+[2021-01-13 13:37:41,597] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/v2/testuser HTTP/1.1" 200 459
+[2021-01-13 13:37:42,411] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/v2/testuser HTTP/1.1" 200 459
+[2021-01-13 13:37:42,904] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/v2/testuser HTTP/1.1" 200 459
+[2021-01-13 13:37:43,407] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/v2/testuser HTTP/1.1" 200 459
+[2021-01-13 13:37:45,250] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/v2/testuser HTTP/1.1" 200 459
+[2021-01-13 13:37:45,897] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/v2/testuser HTTP/1.1" 200 459
+[2021-01-13 13:37:46,719] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/v2/testuser HTTP/1.1" 200 459
+[2021-01-13 13:38:01,742] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- E:\Dataplatform\meme\memetest\views.py changed, reloading.
+[2021-01-13 13:38:02,737] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-01-13 13:38:03,667] [views.py:39] [views:get] [ERROR]- module 'userrole.models' has no attribute 'TestUser'
+[2021-01-13 13:38:03,669] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/v2/testuser HTTP/1.1" 200 36
+[2021-01-13 13:38:16,824] [autoreload.py:236] [autoreload:trigger_reload] [INFO]- E:\Dataplatform\meme\memetest\views.py changed, reloading.
+[2021-01-13 13:38:18,341] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-01-13 13:38:19,198] [basehttp.py:157] [basehttp:log_message] [INFO]- "GET /api/v2/testuser HTTP/1.1" 200 459
+[2021-01-13 15:40:46,386] [log.py:230] [log:log_response] [WARNING]- Forbidden: /api/v1/userinfo
+[2021-01-13 15:40:46,400] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /api/v1/userinfo HTTP/1.1" 403 31

@@ -1,0 +1,11 @@
+[2021-01-18 17:46:45,301] [autoreload.py:613] [autoreload:run_with_reloader] [INFO]- Watching for file changes with StatReloader
+[2021-01-18 17:47:15,252] [log.py:230] [log:log_response] [WARNING]- Not Found: /index/
+[2021-01-18 17:47:15,254] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /index/ HTTP/1.1" 404 2065
+[2021-01-18 17:47:15,400] [log.py:230] [log:log_response] [WARNING]- Not Found: /favicon.ico
+[2021-01-18 17:47:15,401] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /favicon.ico HTTP/1.1" 404 2080
+[2021-01-18 17:47:31,351] [log.py:230] [log:log_response] [WARNING]- Not Found: /index/api/v1/
+[2021-01-18 17:47:31,351] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /index/api/v1/ HTTP/1.1" 404 2086
+[2021-01-18 17:47:36,179] [log.py:230] [log:log_response] [WARNING]- Not Found: /index/api/v1/
+[2021-01-18 17:47:36,180] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /index/api/v1/ HTTP/1.1" 404 2086
+[2021-01-18 17:47:42,460] [log.py:230] [log:log_response] [WARNING]- Not Found: /api/v1/
+[2021-01-18 17:47:42,461] [basehttp.py:157] [basehttp:log_message] [WARNING]- "GET /api/v1/ HTTP/1.1" 404 4248

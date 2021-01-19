@@ -1,0 +1,9 @@
+[2021-01-13 13:35:39,956] [views.py:172] [views:get] [INFO]- userToken object (1)
+[2021-01-13 13:35:39,958] [views.py:173] [views:get] [INFO]- 1
+[2021-01-13 13:35:39,964] [views.py:177] [views:get] [INFO]- UserRole object (1)
+[2021-01-13 13:35:49,051] [views.py:29] [views:get] [INFO]- 进入TuserView
+[2021-01-13 13:35:49,056] [views.py:31] [views:get] [INFO]- 进入TuserView1
+[2021-01-13 13:35:49,061] [views.py:33] [views:get] [INFO]- 进入TuserView2
+[2021-01-13 13:35:49,062] [views.py:35] [views:get] [INFO]- 进入TuserView3
+[2021-01-13 13:36:44,362] [views.py:37] [views:get] [ERROR]- module 'userrole.models' has no attribute 'TestUser'
+[2021-01-13 13:38:03,667] [views.py:39] [views:get] [ERROR]- module 'userrole.models' has no attribute 'TestUser'
